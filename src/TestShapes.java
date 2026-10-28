@@ -27,6 +27,11 @@ public class TestShapes {
 		t.changeColor("blue");
 		t.changeSize(200, 50);
 		t.slowMoveDiagonal(100, 1, -1);
+		
+		Rect re = new Rect();
+		re.makeVisible();
+		re.changeColor("red");
+		re.changeSize(300, 300);
 	}
 
 }
