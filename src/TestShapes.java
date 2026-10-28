@@ -2,6 +2,7 @@
 public class TestShapes {
 
 	public static void main(String[] args) {
+		
 		Rect r = new Rect();
 		r.makeVisible();
 		r.slowMoveHorizontal(100);
