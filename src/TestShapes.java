@@ -28,6 +28,7 @@ public class TestShapes {
 		t.changeSize(200, 50);
 		t.slowMoveDiagonal(100, 1, -1);
 		
+		
 		Rect re = new Rect();
 		re.makeVisible();
 		re.changeColor("red");
